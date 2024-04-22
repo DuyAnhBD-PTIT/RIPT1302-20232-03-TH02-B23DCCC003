@@ -1,0 +1,148 @@
+.header {
+    background-color: rgb(64, 64, 64);
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: auto;
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+}
+
+.container {
+    margin-top: 30px;
+    height: 96.4vh;
+}
+
+.gg-home {
+    padding: .5em;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    color: rgb(105, 107, 111);
+}
+
+.navbar {
+    border-collapse: collapse;
+    width: 15%;
+    background-color: rgb(71, 77, 93);
+    height: 100%;
+}
+
+.navbaritem {
+    text-align: left;
+    display: block;
+    padding: 10px 15px;
+    border: 1px solid rgb(71, 71, 93);
+    color: rgb(172, 181, 192);
+}
+
+#homepage {
+    background-color: rgb(53, 66, 83);
+}
+
+.contentContainer {
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 290px;
+    color: rgb(139, 139, 141);
+    font-size: larger;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+h3 {
+    margin-left: 3px;
+    border-left: 5px solid rgb(225, 215, 213);
+    padding: 15px;
+    font-size: 15px;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.stats {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.card {
+    padding: auto;
+    border-radius: 4px;
+    color: white;
+    background-color: rgb(108, 158, 198);
+    margin: 15px;
+    flex: 0 0 calc(25% - 30px);
+}
+
+.cardcontent {
+    text-align: right;
+    padding: 15px;
+}
+
+.cardBottom {
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(45, 134, 192);
+    width: auto;
+}
+
+.cardBottom p {
+    margin-top: 10px;
+    text-align: left;
+    background-color: rgb(45, 134, 192);
+    width: auto;
+    margin-left: 15px;
+}
+
+.cardcontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a {
+    text-decoration: none;
+    background-color: rgb(42, 187, 167);
+    color: white;
+}
+
+.teacher-management {
+    margin-top: 20px;
+}
+
+.teacher-management table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.teacher-management th,
+.teacher-management td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.teacher-management th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.teacher-management .add-teacher {
+    margin-top: 20px;
+    padding: 8px 16px;
+    background-color: rgb(42, 187, 167);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.teacher-management .add-teacher:hover {
+    background-color: rgb(32, 167, 147);
+}
